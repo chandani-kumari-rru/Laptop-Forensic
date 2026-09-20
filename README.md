@@ -1,4 +1,4 @@
-# Laptop-Forensic ([vid1](https://youtu.be/JedUl0bKfg0?si=sFYmQqTkz2UwbtM5))
+# Laptop-Forensic ([vid1](https://youtu.be/JedUl0bKfg0?si=sFYmQqTkz2UwbtM5) | [vid2](https://youtu.be/qUdU4xKOClA?si=DMM7sVWD03mTO6eS))
 
 ## Forensic Triage ([vid1](https://youtu.be/TzsqMTopNvs?si=ZE5d97LMXTpE1m7G))
 
