@@ -7,4 +7,5 @@
   - Virtual Memory  (eg: cloud storage)
 ## Browser Forensic
 
-## Windows Artifact
+## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn))
+  - Types of Windows Artifacts like Metadata, Exif, 
