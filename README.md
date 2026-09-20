@@ -9,5 +9,5 @@
 
 ## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn))
   - Types of Windows Artifacts like `Metadata`, `Exif`, `Prefetch Files`, `Shellbags`, `LNK Files`, `Paging files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
-  - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  `Nirsoft`, `Reg ripper`, `Autopsy`
+  - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://www.nirsoft.net/), [Reg ripper](https://github.com/keydet89/RegRipper3.0), `Autopsy`
 
