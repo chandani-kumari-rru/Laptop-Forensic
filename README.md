@@ -7,4 +7,4 @@
   - Virtual Memory  (eg: cloud storage)
 ## Browser Forensic
 
-## Registry Forensic
+## Windows Artifact
