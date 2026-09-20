@@ -8,4 +8,6 @@
 ## Browser Forensic
 
 ## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn))
-  - Types of Windows Artifacts like Metadata, Exif, Prefetch Files(.pf extension), Shellbags, LNK Files, Paging files(pagefile.sys), Hibernation Files(hiberfile.sys), Shimcache, Amacache, $UsnJrnl, Jumplist, USB Plugin & Play  
+  - Types of Windows Artifacts like `Metadata`, `Exif`, `Prefetch Files`, `Shellbags`, `LNK Files`, `Paging files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
+  - Open Source Tools like `Eric Zimmerman Tools`,  `Nirsoft`, `Reg ripper`, `Autopsy`
+
