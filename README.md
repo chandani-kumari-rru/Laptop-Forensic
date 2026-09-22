@@ -8,6 +8,12 @@
 ## Browser Forensic
 
 ## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn) | [vid2](https://youtu.be/qc6mEPUTclg?si=yl1w1M7XPzEyvykF))
-  - Types of Windows Artifacts like `Metadata`, `Exif`, `Prefetch Files`, `Shellbags`, `LNK Files`, `Paging files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
+- Windows Registry is made up of several key sections called `Hives`, each containing specific types of information. These hives are building blocks of Windows Registry & they ensure the both system-wide & per-user settings can be managed effectively. Here are the main registry hives:
+  - `HKEY_CLASSES_ROOT(HKCR)`  : Stores info about which program is open or not
+  - `HKEY_CURRENT_USER(HKCU)`  : Stores user-specific settings
+  - `HKEY_LOCAL_MACHINE(HKLM)` : Stores info about hardware/software settings
+  - `HKEY_USERS(HKU)`          : Stores all user profiles, each one represented by a security identifier(sid)
+  - `HKEY_CURRENT_CONFIG(HKCC)`: Stores info about hardware profile
+- Types of Windows Artifacts like `Metadata`, `Exif`, `Prefetch Files`, `Shellbags`, `LNK Files`, `Paging files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
 
