@@ -16,7 +16,16 @@
     > eg: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
   - `HKEY_USERS(HKU)`          : Stores all user profiles, each one represented by a security identifier(sid)
   - `HKEY_CURRENT_CONFIG(HKCC)`: Stores info about hardware profile
-- Types of Windows Artifacts like `Hives`(NTUSER.DAT), `Prefetch Files`(*.pf), `Shellbags`, `LNK Files`(*.lnk), `Paging Files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
+### List of Windows Artifacts  
+| Artifact | Extension | Location | 
+| --- | --- | --- |
+|Hives|*.dat||
+|Prefetch Files|*.pf||
+|LNK Files|*.lnk||
+|Paging Files|pagefile.sys||
+|Hibernateion Files|hiberfile.sys||
+
+ like `Hives`(NTUSER.DAT), `Prefetch Files`(*.pf), `Shellbags`, `LNK Files`(*.lnk), `Paging Files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
   - Sample Registry Hive like [Windows](https://github.com/AndrewRathbun/VanillaWindowsRegistryHives/), Mac, Linux
 
