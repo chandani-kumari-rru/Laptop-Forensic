@@ -7,7 +7,7 @@
   - Virtual Memory  (eg: cloud storage)
 ## Browser Forensic
 
-## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn) | vid[2.1](https://youtu.be/qc6mEPUTclg?si=yl1w1M7XPzEyvykF),[2.2](https://youtu.be/icMH6C89URQ?si=qh3wvLinA7NN2New),[2.3](https://youtu.be/6YVlQxcfRTA?si=NEm1qIxIK9A1TAWA),[2.4](https://youtu.be/qv12vRiC-YA?si=B2PXcncjXdYaYoyg),2.5)
+## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn) | vid[2.1](https://youtu.be/qc6mEPUTclg?si=yl1w1M7XPzEyvykF),[2.2](https://youtu.be/icMH6C89URQ?si=qh3wvLinA7NN2New),[2.3](https://youtu.be/6YVlQxcfRTA?si=NEm1qIxIK9A1TAWA),[2.4](https://youtu.be/qv12vRiC-YA?si=B2PXcncjXdYaYoyg),[2.5](https://youtu.be/jKaHhFznwUE?si=8iUiHWSMOL7LHsTv))
 - Windows Registry is made up of several key sections called `Hives`, each containing specific types of information. Here are the main registry hives:
   > Location: `C:\Windows\System32\config`
   - `HKEY_CLASSES_ROOT(HKCR)`  : Stores info about which program is open or not
