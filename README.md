@@ -30,7 +30,7 @@
 |Amacache||C:\Windows\appcompat\Programs|EricZimmerman,Nirsoft|
 |$UsnJrnl|||EricZimmerman,Nirsoft|
 |Jumplist|||EricZimmerman,Nirsoft|
-|EventLog/MFT_Files|||[Chainsaw](https://github.com/WithSecureOpenSource/chainsaw/)|
+|EventLog/MFT_Files|*.evtx|C:\Windows\System32\winevt\Logs|[Chainsaw](https://github.com/WithSecureOpenSource/chainsaw/)|
 |USB||HKLM\SYSTEM\CurrentControlSet\Enum\USB|Nirsoft, [USB Detective](https://usbdetective.com/community-download/)|
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
   - Sample Registry Hive like [Windows](https://github.com/AndrewRathbun/VanillaWindowsRegistryHives/), Mac, Linux
