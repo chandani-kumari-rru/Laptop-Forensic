@@ -21,6 +21,7 @@
 | --- | --- | --- |
 |Hives|*.dat|C:\Windows\System32\config|
 |Prefetch Files|*.pf|C:\Windows\Prefetch|
+|Shellbags|||
 |LNK Files|*.lnk||
 |Paging Files|pagefile.sys||
 |Hibernateion Files|hiberfile.sys||
