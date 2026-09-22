@@ -12,6 +12,7 @@
   - `HKEY_CLASSES_ROOT(HKCR)`  : Stores info about which program is open or not
   - `HKEY_CURRENT_USER(HKCU)`  : Stores user-specific settings
   - `HKEY_LOCAL_MACHINE(HKLM)` : Stores info about hardware/software settings
+    > Location: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
   - `HKEY_USERS(HKU)`          : Stores all user profiles, each one represented by a security identifier(sid)
   - `HKEY_CURRENT_CONFIG(HKCC)`: Stores info about hardware profile
   > Location: `C:\Windows\System32\config`
