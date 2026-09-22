@@ -13,6 +13,7 @@
   - `HKEY_CURRENT_USER(HKCU)`  : Stores user-specific settings
   - `HKEY_LOCAL_MACHINE(HKLM)` : Stores info about hardware/software settings
   - `HKEY_USERS(HKU)`          : Stores all user profiles, each one represented by a security identifier(sid)
+  > Location: `C:\Windows\System32\config`
   - `HKEY_CURRENT_CONFIG(HKCC)`: Stores info about hardware profile
 - Types of Windows Artifacts like `Metadata`, `Exif`, `Prefetch Files`, `Shellbags`, `LNK Files`, `Paging files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
