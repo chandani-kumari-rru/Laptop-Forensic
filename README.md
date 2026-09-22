@@ -17,20 +17,20 @@
   - `HKEY_USERS(HKU)`          : Stores all user profiles, each one represented by a security identifier(sid)
   - `HKEY_CURRENT_CONFIG(HKCC)`: Stores info about hardware profile
 ### List of Windows Artifacts  
-| Artifact | Extension | Location | 
+| Artifact | Extension | Location | Software |
 | --- | --- | --- |
-|Hives|*.dat|C:\Windows\System32\config|
-|Prefetch Files|*.pf|C:\Windows\Prefetch|
-|Shellbags||HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell|
-|ShadowCopy|||
-|LNK Files|*.lnk||
-|Paging Files|pagefile.sys||
-|Hibernateion Files|hiberfile.sys||
-|Shimcache|||
-|Amacache|||
-|$UsnJrnl|||
-|Jumplist|||
-|USB||HKLM\SYSTEM\CurrentControlSet\Enum\USB|
+|Hives|*.dat|C:\Windows\System32\config|EricZimmerman,Nirsoft,RegRipper|
+|Prefetch Files|*.pf|C:\Windows\Prefetch|EricZimmerman,Nirsoft|
+|Shellbags||HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell|EricZimmerman,Nirsoft|
+|ShadowCopy|||Nirsoft|
+|LNK Files|*.lnk||EricZimmerman,Nirsoft|
+|Paging Files|pagefile.sys||EricZimmerman,Nirsoft|
+|Hibernateion Files|hiberfile.sys||EricZimmerman,Nirsoft|
+|Shimcache|||EricZimmerman,Nirsoft|
+|Amacache|||EricZimmerman,Nirsoft|
+|$UsnJrnl|||EricZimmerman,Nirsoft|
+|Jumplist|||EricZimmerman,Nirsoft|
+|USB||HKLM\SYSTEM\CurrentControlSet\Enum\USB|Nirsoft|
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
   - Sample Registry Hive like [Windows](https://github.com/AndrewRathbun/VanillaWindowsRegistryHives/), Mac, Linux
 
