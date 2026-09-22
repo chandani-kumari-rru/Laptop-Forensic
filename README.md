@@ -18,7 +18,7 @@
   - `HKEY_CURRENT_CONFIG(HKCC)`: Stores info about hardware profile
 ### List of Windows Artifacts  
 | Artifact | Extension | Location | Software |
-| --- | --- | --- |
+| --- | --- | --- | --- | 
 |Hives|*.dat|C:\Windows\System32\config|EricZimmerman,Nirsoft,RegRipper|
 |Prefetch Files|*.pf|C:\Windows\Prefetch|EricZimmerman,Nirsoft|
 |Shellbags||HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell|EricZimmerman,Nirsoft|
