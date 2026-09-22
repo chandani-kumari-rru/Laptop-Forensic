@@ -7,7 +7,7 @@
   - Virtual Memory  (eg: cloud storage)
 ## Browser Forensic
 
-## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn))
+## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn) | [vid2](https://youtu.be/qc6mEPUTclg?si=yl1w1M7XPzEyvykF))
   - Types of Windows Artifacts like `Metadata`, `Exif`, `Prefetch Files`, `Shellbags`, `LNK Files`, `Paging files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
 
