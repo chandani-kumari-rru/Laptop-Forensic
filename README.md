@@ -26,8 +26,8 @@
 |LNK Files|*.lnk||EricZimmerman,Nirsoft|
 |Paging Files|pagefile.sys||EricZimmerman,Nirsoft|
 |Hibernateion Files|hiberfile.sys||EricZimmerman,Nirsoft|
-|Shimcache|||EricZimmerman,Nirsoft|
-|Amacache|||EricZimmerman,Nirsoft|
+|Shimcache||C:\Windows\System32\config\SYSTEM|EricZimmerman,Nirsoft|
+|Amacache||C:\Windows\appcompat\Programs|EricZimmerman,Nirsoft|
 |$UsnJrnl|||EricZimmerman,Nirsoft|
 |Jumplist|||EricZimmerman,Nirsoft|
 |USB||HKLM\SYSTEM\CurrentControlSet\Enum\USB|Nirsoft, [USB Detective](https://usbdetective.com/community-download/)|
