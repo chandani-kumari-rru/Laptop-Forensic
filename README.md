@@ -7,7 +7,7 @@
   - Virtual Memory  (eg: cloud storage)
 ## Browser Forensic
 
-## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn) | vid[2.1](https://youtu.be/qc6mEPUTclg?si=yl1w1M7XPzEyvykF),[2.2](https://youtu.be/icMH6C89URQ?si=qh3wvLinA7NN2New),2.3)
+## Windows Artifact ([vid1](https://youtu.be/At8Dcc5k6eo?si=_wVHGBlFyA7EBTKn) | vid[2.1](https://youtu.be/qc6mEPUTclg?si=yl1w1M7XPzEyvykF),[2.2](https://youtu.be/icMH6C89URQ?si=qh3wvLinA7NN2New),[2.3](https://youtu.be/6YVlQxcfRTA?si=NEm1qIxIK9A1TAWA),[2.4](https://youtu.be/qv12vRiC-YA?si=B2PXcncjXdYaYoyg),2.5)
 - Windows Registry is made up of several key sections called `Hives`, each containing specific types of information. Here are the main registry hives:
   > Location: `C:\Windows\System32\config`
   - `HKEY_CLASSES_ROOT(HKCR)`  : Stores info about which program is open or not
@@ -22,11 +22,15 @@
 |Hives|*.dat|C:\Windows\System32\config|
 |Prefetch Files|*.pf|C:\Windows\Prefetch|
 |Shellbags||HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell|
+|ShadowCopy|||
 |LNK Files|*.lnk||
 |Paging Files|pagefile.sys||
 |Hibernateion Files|hiberfile.sys||
-
- like `Hives`(NTUSER.DAT), `Prefetch Files`(*.pf), `Shellbags`, `LNK Files`(*.lnk), `Paging Files`(pagefile.sys), `Hibernation Files`(hiberfile.sys), `Shimcache`, `Amacache`, `$UsnJrnl`, `Jumplist`, `USB Plugin & Play`
+|Shimcache|||
+|Amacache|||
+|$UsnJrnl|||
+|Jumplist|||
+|USB|||
   - Open Source Tools like [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/)
   - Sample Registry Hive like [Windows](https://github.com/AndrewRathbun/VanillaWindowsRegistryHives/), Mac, Linux
 
