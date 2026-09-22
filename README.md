@@ -21,7 +21,7 @@
 | --- | --- | --- |
 |Hives|*.dat|C:\Windows\System32\config|
 |Prefetch Files|*.pf|C:\Windows\Prefetch|
-|Shellbags|||
+|Shellbags||`HKCU\Software\Microsoft\Windows\Shell\Bags`,`HKCU\Software\Microsoft\Windows\Shell\BagMRU`,`HKCU\Software\Microsoft\Windows\ShellNoRoam\Bags`,`HKCU\Software\Microsoft\Windows\ShellNoRoam\BagMRU`|
 |LNK Files|*.lnk||
 |Paging Files|pagefile.sys||
 |Hibernateion Files|hiberfile.sys||
